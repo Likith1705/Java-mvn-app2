@@ -10,7 +10,7 @@ pipeline {
         stage('SCM Checkout') {
             steps {
                 echo 'Checkout Src from github repo'
-		git 'https://github.com/LoksaiETA/Java-mvn-app2.git'
+		git 'https://github.com/Likith1705/Java-mvn-app2.git'
             }
         }
         stage('Maven Build') {
